@@ -403,7 +403,7 @@ color: blue;
 #app{
     background-color: black;
     color: white;
-    padding: 6px 11px;
+    padding: 4px 11px;
     height: 30px;
     margin: 10px 20px;
     border: none;
@@ -765,10 +765,13 @@ hr{
         margin-right: 10px;
         background-color: black;
         border: none;
-        margin-top: -2%;
+        margin-top: -10%;
         margin-right: 90px;
     }
+    
 }
+
+
 @media(max-width:900px) {
 .box .button{
     margin-top: -14%;
@@ -781,6 +784,7 @@ hr{
     padding: 13px 13px;
     margin-right: 10px;
     background-color: black;
+    margin-top: 0%;
     border: none;
     margin-right: 90px;
 }
@@ -817,10 +821,14 @@ hr{
     font-family: inherit;
     margin: 0;
 }
+.container4 p{
+    top: 8px;
+    position: relative;
+}
 #app {
     background-color: black;
     color: white;
-    padding: 9px 11px;
+    padding: 5px 11px;
     height: 22px;
     margin: 10px 20px;
     border: none;
@@ -972,7 +980,7 @@ hr{
     padding-bottom: 20px;
 }
   .container6 .card .icon {
-    width: 10px;
+    width: 80px;
     height: 100px;
     border-radius: 100%;
     background: white;
@@ -1278,7 +1286,18 @@ body{
 }
     }
     @media(max-width:600px){
-
+.container6 .card .icon i{
+    font-size: 15px;
+}
+.container6 .card .icon {
+    width: 70px;
+    height: 100px;
+    border-radius: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
         .container2 button {
             width: 27%;
             padding: 10px 10px;
@@ -1315,21 +1334,15 @@ body{
         }
         }
         @media(max-width:500px){
-
-            .container2 button {
-                width: 17%;
-                padding: 10px 10px;
-                background-color: #222;
-                color: white;
-                font-size: 20px;
-                text-align: center;
-                margin-top: 10%;
-                margin-left: -31%;
-                border-radius: 8px;
-                cursor: pointer;
+            .box p {
+                float: left;
+                margin-top: 0%;
+                font-size: 10px;
+                padding: 0px 0px;
             }
+            
             #q{
-                margin-left: -60%;
+                margin-left: -51%;
             }
             .container2 button {
                 width: 17%;
@@ -1338,8 +1351,8 @@ body{
                 color: white;
                 font-size: 20px;
                 text-align: center;
-                margin-top: 10%;
-                margin-left: 0%;
+                margin-top: -20%;
+                margin-left: 15%;
                 border-radius: 8px;
                 cursor: pointer;
             }
@@ -1356,6 +1369,7 @@ body{
                 text-align: left;
                 justify-content: center;
                 padding: 40px;
+                margin-top: -20%;
                 padding-bottom: 20px;
             }
             }
@@ -1798,4 +1812,117 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
+}
+@media(max-width:800px){
+    .box button {
+        float: right;
+        color: white;
+        background-color: red;
+        border-radius: 8px;
+        padding: 13px 13px;
+        margin-right: 10px;
+        background-color: black;
+        border: none;
+        margin-top: -2%;
+        margin-right: 8px;
+    }
+}
+@media(max-width:772px){
+.box button {
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 13px 13px;
+    margin-right: 10px;
+    background-color: black;
+    border: none;
+    margin-top: -3%;
+    margin-right: 0px;
+}
+}
+@media(max-width:756px){
+.box button {
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 13px 13px;
+    margin-right: 10px;
+    background-color: black;
+    border: none;
+    margin-top: -14%;
+    margin-right: 0px;
+}
+}
+@media(max-width:500px){
+    .box button {
+        float: right;
+        color: white;
+        background-color: red;
+        border-radius: 8px;
+        padding: 13px 13px;
+        margin-right: 10px;
+        background-color: black;
+        border: none;
+        margin-top: -20%;
+        margin-right: 0px;
+    }
+}
+@media(max-width:450px){
+.box button {
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px 0px;
+    margin-right: 10px;
+    background-color: black;
+    border: none;
+    margin-top: -0%;
+    margin-right: 0px;
+
+}
+}
+@media(max-width:368px){
+    .box button {
+        float: right;
+        color: white;
+        background-color: red;
+        border-radius: 8px;
+        padding: 10px 0px;
+        margin-right: 10px;
+        background-color: black;
+        border: none;
+        margin-top: -15%;
+        margin-right: 0px;
+    }
+}
+@media(max-width:315px){
+.box button {
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px 0px;
+    margin-right: 10px;
+    background-color: black;
+    border: none;
+    margin-top: -21%;
+    margin-right: 0px;
+}
+}
+@media(max-width:900px){
+    .box button {
+        float: right;
+        color: white;
+        background-color: red;
+        border-radius: 8px;
+        padding: 10px 7px;
+        margin-right: 10px;
+        background-color: black;
+        border: none;
+        display: none;
+        margin-right: 90px;
+    }
 }
